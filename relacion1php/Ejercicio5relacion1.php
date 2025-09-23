@@ -43,6 +43,18 @@
 
     </ol>
 
+    <?php 
+    echo "En forma de tabla";
+    echo "<table style = 'border: black solid 1px'>";
+        foreach ($temperaturas as $x => $y) {
+        echo "<tr> <td>$x</td>  <td>$y</td> </tr>";
+    }
+
+
+    echo "</table>";
+
+    ?>
+
 </body>
 
 </html>

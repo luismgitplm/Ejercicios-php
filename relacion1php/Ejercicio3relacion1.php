@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Manejo de superglobals</h1>
+    <?php
+        echo $_SERVER['DOCUMENT_ROOT'];
+
+        foreach($_SERVER as $clave => $valor){
+            echo "$clave : $valor <br>";
+        }
+    ?>
     
 </body>
 </html>
